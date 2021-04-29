@@ -10,6 +10,7 @@ After this add 2 files `cities.json` and `citizens.json` to mongo container;
 db name:  `hierarchy`, 
 collections name: `cities`, `citizens`; 
 (for example : 
-> docker cp cities.json CONTAINER_NAME:/cities.json 
-> docker exec -it CONTAINER_NAME  bash 
-> mongoimport --db hierarchy --collection cities --drop --jsonArray --batchSize 1 --file ./cities.json)
+# docker cp cities.json CONTAINER_NAME:/cities.json 
+# docker exec -it CONTAINER_NAME  bash 
+# mongoimport --db hierarchy --collection cities --drop --jsonArray --batchSize 1 --file ./cities.json
+)
