@@ -20,10 +20,7 @@ let arrHierarchy = (inputArray, name, child) => {
 };
 
 
- // can compose?
-//  let streets = arrHierarchy(citizens, 'street', 'user')
-//  let districts = arrHierarchy(streets, 'district', 'street')
-//  let citiesHierarchy = arrHierarchy(districts, 'city', 'district')
+ 
 
 export let inputConfig = (citizens, house, street, district, city, country) => {
   if(!!house && !!street && !!district &&!!city && !!country) {
